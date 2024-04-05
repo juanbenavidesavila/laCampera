@@ -1,0 +1,45 @@
+#hero {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+body {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.nav-color {
+  text-align: center;
+  background-color: black;
+}
+
+.great-vibes-regular {
+  font-family: "Great Vibes", cursive;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.header-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-image {
+  width: 150px;
+  border-radius: 50%;
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translateY(0px);
+  }
+
+  to {
+    transform: translateY(-10px);
+  }
+}
+
+
