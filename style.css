@@ -56,6 +56,10 @@ p {
   }
 }
 
+.btn-link{
+  text-align: center;
+}
+
 footer {
   background-color: black;
 }
